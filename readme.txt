@@ -5,7 +5,6 @@ Creating Entity Framework Core 3.1 Code First project using MySql in Fedora
 4. Run application using F5. Set the environment to .Net Core when prompted.
 5. Add Entity Core packages,
     dotnet add package Microsoft.EntityFrameworkCore.Design
-    dotnet add package Microsoft.EntityFrameworkCore
 6. Add MySQL provider package,
     dotnet add package Pomelo.EntityFrameworkCore.MySql --version 3.0.0-rc1.final
 7. Install dotnet ef tool
