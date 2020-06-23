@@ -9,3 +9,5 @@ Creating Entity Framework Core 3.1 Code First project using MySql in Fedora
     dotnet add package Pomelo.EntityFrameworkCore.MySql --version 3.0.0-rc1.final
 7. Install dotnet ef tool
     dotnet tool install --global dotnet-ef
+8. Connect to MySQL from terminal in fedora using,
+    mysql -u root -p
