@@ -1,0 +1,1 @@
+dotnet ef dbcontext scaffold "server=localhost;userid=root;pwd=rootpw;port=3306;database=movies;sslmode=none;" Pomelo.EntityFrameworkCore.MySql -o Entities
