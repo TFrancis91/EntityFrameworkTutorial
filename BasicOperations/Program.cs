@@ -22,17 +22,17 @@ namespace BasicOperations
             //Display single item
             var actorTom = MoviesContext.Instance.Actor.SingleOrDefault(a => a.FirstName == "Tom");
             Console.WriteLine($"Id: {actorTom.ActorId}, FirstName: {actorTom.FirstName}, LastName: {actorTom.LastName}");
-            /*
-                        //Add an actor
-                        var newActor = new Actor { FirstName = "Joaquin", LastName = "Phoenix" };
-                        MoviesContext.Instance.Actor.Add(newActor);
-                        MoviesContext.Instance.SaveChanges();
+            
+            //Add an actor
+            var newActor = new Actor { FirstName = "Joaquin", LastName = "Phoenix" };
+            MoviesContext.Instance.Actor.Add(newActor);
+            MoviesContext.Instance.SaveChanges();
 
-                        //Update an actor
-                        var updateActor = MoviesContext.Instance.Actor.SingleOrDefault(actorModels => actorModels.ActorId == 22);
-                        updateActor.FirstName = "Leonardo";
-                        updateActor.LastName = "DiCaprio";
-                        MoviesContext.Instance.SaveChanges();*/
+            //Update an actor
+            var updateActor = MoviesContext.Instance.Actor.SingleOrDefault(actorModels => actorModels.ActorId == 22);
+            updateActor.FirstName = "Leonardo";
+            updateActor.LastName = "DiCaprio";
+            MoviesContext.Instance.SaveChanges();
 
             //Delete an item
             var removeActor = MoviesContext.Instance.Actor.SingleOrDefault(a => a.ActorId == 23);
