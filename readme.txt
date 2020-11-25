@@ -1,7 +1,7 @@
 Creating Entity Framework Core 3.1 project using MySql in Fedora
 1. Install Visual Studio Code
 2. Install .Net Core SDK
-3. Create a new console application. From termonal, dotnet new console -o EntityFrameworkTutorial
+3. Create a new console application. From terminal, dotnet new console -o EntityFrameworkTutorial
 4. Run application using F5. Set the environment to .Net Core when prompted.
 5. Add Entity Core packages,
     dotnet add package Microsoft.EntityFrameworkCore.Design
